@@ -13,7 +13,7 @@ def read_and_count_letters(to_read):
         # Printing the returned data to the command line
         pprint.pprint(text_sort)
 
-    # Initialising a new matplotlib bar graph illustrating the occurences of letters detected in the text file
+    # Initialising a new matplotlib bar graph illustrating the occurrences of letters detected in the text file
     plt.bar(*zip(*text_count.items()))
     plt.show()
 
